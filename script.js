@@ -1,57 +1,25 @@
 /*Here we have created two different arrays that you can work with if you want.
 If you choose to create your own arrays with elements, just make sure that some
 of the properties make sense to filter on, and some to sort on.*/
-
 const books = [
   {
-    title: 'The Great Gatsby',
-    author: 'F. Scott Fitzgerald',
-    year: 1925,
-    genre: 'Fiction',
-    rating: 4.2,
-    description:
-      'A classic novel set in the Roaring Twenties, it explores themes of wealth, love, and the American Dream through the enigmatic Jay Gatsby.',
-    image: './books-images/the-great-gatsby.jpg'
-  },
-  {
-    title: 'To Kill a Mockingbird',
-    author: 'Harper Lee',
-    year: 1960,
-    genre: 'Fiction',
-    rating: 4.5,
-    description:
-      'Set in the American South, this novel tackles issues of racism and injustice through the eyes of young Scout Finch.',
-    image: './books-images/to-kill-a-mockingbird.jpg'
-  },
-  {
-    title: '1984',
-    author: 'George Orwell',
-    year: 1949,
-    genre: 'Science Fiction',
-    rating: 4.4,
-    description:
-      'A dystopian classic that explores totalitarianism and the consequences of a surveillance state in a bleak future.',
-    image: './books-images/1984.jpg'
-  },
-  {
-    title: 'Pride and Prejudice',
-    author: 'Jane Austen',
-    year: 1813,
+    title: 'SPQR: A history of ancient Rome',
+    author: 'Mary Beard',
+    year: 2015,
     genre: 'Fiction',
     rating: 4.25,
     description:
-      'A timeless romance novel that examines societal expectations and the misunderstandings that can arise from pride and prejudice.',
-    image: './books-images/pride-and-prejudice.jpg'
+      'In SPQR, her wonderful concise history, Mary Beard unpacks the secrets of the citys success with a crisp and merciless clarity',
+    image: './books-images/SPQR.jpg'
   },
   {
-    title: 'The Catcher in the Rye',
-    author: 'J.D. Salinger',
-    year: 1951,
+    title: 'The saga of the Volsungs',
+    author: 'Dr. Jackson Crawford',
+    year: 2017,
     genre: 'Fiction',
-    rating: 4,
-    description:
-      'Narrated by the teenage Holden Caulfield, the novel explores themes of alienation and the search for authenticity.',
-    image: './books-images/unknown.jpg'
+    rating: 4.5,
+    description: 'Sigurds daughter and her husband, the unparalleled Viking king and hero, Ragnar, who is also a dragon- slayer.',
+    image: './books-images/81gailbnLYL._SY466_.jpg'
   },
   {
     title: 'The Hobbit',
@@ -61,27 +29,67 @@ const books = [
     rating: 4.6,
     description:
       'A fantasy adventure novel that follows Bilbo Baggins on a quest to help a group of dwarves reclaim their homeland from a dragon.',
-    image: './books-images/the-hobbit.jpg'
+    image: './books-images/Hobbit.jpg'
   },
   {
-    title: "Harry Potter and the Sorcerer's Stone",
+    title: 'Harry Potter and the Half-blood-Prince',
     author: 'J.K. Rowling',
-    year: 1997,
-    genre: 'Fantasy',
-    rating: 4.7,
-    description:
-      'The first book in the beloved Harry Potter series, it introduces readers to the magical world of Hogwarts and the young wizard Harry Potter.',
-    image: "./books-images/harry-potter-and-the-sorcerer'.jpg"
-  },
-  {
-    title: 'Moby-Dick',
-    author: 'Herman Melville',
-    year: 1851,
+    year: 2014,
     genre: 'Adventure',
     rating: 4.1,
     description:
       'An epic tale of obsession, revenge, and the relentless pursuit of the great white whale, Moby Dick.',
-    image: './books-images/moby-dick.jpg'
+    image: "./books-images/Half-blood-Prince.jpg"
+  },
+  {
+    title: 'Harry Potter and the chamber of secrets',
+    author: 'J.K. Rowling',
+    year: 2014,
+    genre: 'Adventure',
+    rating: 4.2,
+    description:
+      'Harry will need powerful magic and true friends as he explores Voldemorts darkest secrets, and Dumbledore prepares him to face his destiny.',
+    image: './books-images/Chamber-of-secrets.jpg'
+  },
+  {
+    title: 'Harry Potter and the prisoner of Azkaban',
+    author: 'J.K. Rowling',
+    year: 2014,
+    genre: 'Adventure',
+    rating: 4.6,
+    description:
+      'Sirius Black, escaped mass-murderer and follower of Lord Voldemort, is on the run - and they say he is coming after Harry.',
+    image: './books-images/Prisoner-of-Azkaban.jpg'
+  },
+  {
+    title: 'Harry Potter and the deathly hallows',
+    author: 'J.K. Rowling',
+    year: 2014,
+    genre: 'Adventure',
+    rating: 4.6,
+    description:
+      'The final battle must begin - Harry must stand and face his enemy...',
+    image: './books-images/Deathly-hallows.jpg'
+  },
+  {
+    title: 'Harry Potter and the order of the phoenix',
+    author: 'J.K. Rowling',
+    year: 2014,
+    genre: 'Adventure',
+    rating: 4.6,
+    description:
+      'Harry must allow Professor Snape to teach him how to protect himself from Voldemorts savage assaults on his mind.',
+    image: './books-images/Order-of-phoenix.jpg'
+  },
+  {
+    title: 'Harry Potter and the philosophers stone',
+    author: 'J.K. Rowling',
+    year: 1997,
+    genre: 'Adventure',
+    rating: 4.6,
+    description:
+      'On Harrys eleventh birthday, a giant called Rubeus Hagrid bursts in with some astonishing news: Harry is a wizard, and he has a place at Hogwarts School. An incredible adventure is about to begin.',
+    image: './books-images/Philosophers-stone.jpg'
   },
   {
     title: 'The Lord of the Rings: The Fellowship of the Ring',
@@ -91,7 +99,27 @@ const books = [
     rating: 4.55,
     description:
       'The first volume of the epic fantasy trilogy follows Frodo Baggins and the Fellowship on their quest to destroy the One Ring.',
-    image: './books-images/the-lord-of-the-rings.jpg'
+    image: './books-images/Fellowship.jpg'
+  },
+  {
+    title: 'The Lord of the Rings: The Two Towers',
+    author: 'J.R.R. Tolkien',
+    year: 1955,
+    genre: 'Fantasy',
+    rating: 4.60,
+    description:
+      'The first volume of the epic fantasy trilogy follows Frodo Baggins and the Fellowship on their quest to destroy the One Ring.',
+    image: './books-images/Towers.jpg'
+  },
+  {
+    title: 'The Lord of the Rings: The Return of the King',
+    author: 'J.R.R. Tolkien',
+    year: 1956,
+    genre: 'Fantasy',
+    rating: 4.90,
+    description:
+      'The last volume of the epic fantasy trilogy follows Frodo Baggins and the Fellowship on their quest to destroy the One Ring.',
+    image: './books-images/Return.jpg'
   },
   {
     title: 'The Shining',
@@ -101,17 +129,17 @@ const books = [
     rating: 4.3,
     description:
       "A psychological horror novel that tells the story of the Torrance family's terrifying experiences at the haunted Overlook Hotel.",
-    image: './books-images/unknown.jpg'
+    image: './books-images/Shining.jpg'
   },
   {
-    title: 'The Chronicles of Narnia: The Lion, the Witch and the Wardrobe',
-    author: 'C.S. Lewis',
-    year: 1950,
+    title: 'Celtic mythology',
+    author: 'Josh Drake',
+    year: 2020,
     genre: 'Fantasy',
-    rating: 4.15,
+    rating: 4.90,
     description:
-      'The first book in the Chronicles of Narnia series, it follows the adventures of children who discover the magical land of Narnia.',
-    image: './books-images/the-chronicles-of-narnia.jpg'
+      'The Complete Guide to Celtic Myths from the Irish, Scottish, Brittany and Welsh Mythology Including Tales, Gods and Legends',
+    image: './books-images/Celtic.jpg'
   },
   {
     title: 'The Da Vinci Code',
@@ -121,17 +149,7 @@ const books = [
     rating: 3.8,
     description:
       'A gripping mystery thriller that follows Harvard symbologist Robert Langdon as he unravels the secrets of the Da Vinci Code.',
-    image: './books-images/unknown.jpg'
-  },
-  {
-    title: 'The Alchemist',
-    author: 'Paulo Coelho',
-    year: 1988,
-    genre: 'Fiction',
-    rating: 4.25,
-    description:
-      'A philosophical novel that tells the story of Santiago, a shepherd boy, on his quest to discover his personal legend.',
-    image: './books-images/unknown.jpg'
+    image: './books-images/DCode.jpg'
   },
   {
     title: 'The Hunger Games',
@@ -141,7 +159,7 @@ const books = [
     rating: 4.3,
     description:
       "In a dystopian future, Katniss Everdeen becomes a symbol of rebellion when she volunteers to take her sister's place in the brutal Hunger Games.",
-    image: './books-images/unknown.jpg'
+    image: './books-images/Hunger.jpg'
   },
   {
     title: 'The Girl with the Dragon Tattoo',
@@ -151,17 +169,17 @@ const books = [
     rating: 4.1,
     description:
       'A gripping mystery novel featuring investigative journalist Mikael Blomkvist and the enigmatic hacker Lisbeth Salander.',
-    image: './books-images/unknown.jpg'
+    image: './books-images/Tatoo.jpg'
   },
   {
-    title: 'The Road',
-    author: 'Cormac McCarthy',
-    year: 2006,
+    title: 'The Oxford handbook of archaeology',
+    author: 'Barry Cunliffe',
+    year: 2020,
     genre: 'Dystopian',
-    rating: 4,
+    rating: 4.9,
     description:
-      "Set in a post-apocalyptic world, it follows a father and son's harrowing journey to survive and find safety.",
-    image: './books-images/unknown.jpg'
+      'The Handbook, written by 35 leading experts, provides an authoritative guide to the full range of archaeological activities.',
+    image: './books-images/Archaeology.jpg'
   },
   {
     title: "The Hitchhiker's Guide to the Galaxy",
@@ -171,236 +189,138 @@ const books = [
     rating: 4.35,
     description:
       "A comedic science fiction series that follows the misadventures of Arthur Dent after Earth's destruction.",
-    image: './books-images/unknown.jpg'
+    image: './books-images/Galaxy.jpg'
   },
   {
-    title: 'The Giver',
-    author: 'Lois Lowry',
-    year: 1993,
+    title: 'For your next book',
+    author: 'Synnove',
+    year: 2024,
     genre: 'Dystopian',
-    rating: 4.12,
+    rating: 4.90,
     description:
-      'A dystopian novel set in a seemingly perfect society where young Jonas discovers the dark truth beneath the surface.',
-    image: './books-images/unknown.jpg'
+      'You are a stunning writer. Dont forget. Get it!',
+    image: './books-images/Moleskine.jpg'
   }
 ]
 
-const recipes = [
-  {
-    name: 'Individual vegetarian lasagnes',
-    cuisineType: ['italian'],
-    ingredients: [
-      '1.2 kg cherry tomatoes',
-      '5 sprigs of fresh thyme',
-      'extra virgin olive oil',
-      '2 shallots',
-      '2 cloves of garlic',
-      '500 g baby spinach',
-      '8-12 fresh or dried lasagne sheets',
-      '350 g ricotta cheese',
-      'WHITE SAUCE',
-      '600 ml milk',
-      '25 g unsalted butter',
-      '2 heaped tablespoons flour',
-      '150 g vegetarian sharp, mature cheese',
-      '100 g mozzarella'
-    ],
-    source: 'Jamie Oliver',
-    totalTime: 130,
-    url: 'http://www.jamieoliver.com/recipes/vegetables-recipes/individual-vegetarian-lasagnes/',
-    image: './recipe-images/individual-vegetarian-lasagnes.jpg'
-  },
-  {
-    name: 'Vegetarian Stir-Fried Garlic Scape',
-    cuisineType: ['Balanced'],
-    ingredients: [
-      '8 oz. garlic scapes',
-      '3 oz. baby corn',
-      '3 oz. carrots',
-      '1 oz. dried shiitake mushrooms',
-      '1 clove of garlic sliced thinly',
-      '3 slices of fresh ginger root',
-      '2 tablespoons vegetable oil',
-      '1/4 cup shaoxing cooking wine',
-      '1/4 vegetarian stock or water',
-      '1 tablespoon light soy sauce',
-      '1 teaspoon sugar',
-      '1 teaspoon cornstarch',
-      '1/4 teaspoon ground white pepper'
-    ],
-    source: 'Red Cook',
-    totalTime: null,
-    url: 'http://redcook.net/2010/06/16/garlic-scape-an-off-menu-treat/',
-    image: './recipe-images/vegetarian-stir-fried-garlic-s.jpg'
-  },
-  {
-    name: 'Cheat’s cheesy focaccia',
-    cuisineType: ['Italian'],
-    ingredients: [
-      '500g pack bread mix',
-      '2 tbsp olive oil , plus a little extra for drizzling',
-      '25g parmesan (or vegetarian alternative), grated',
-      '75g dolcelatte cheese (or vegetarian alternative)'
-    ],
-    source: 'BBC Good Food',
-    totalTime: 40,
-    url: 'https://www.bbcgoodfood.com/recipes/cheats-cheesy-focaccia',
-    image: './recipe-images/cheat’s-cheesy-focaccia.jpg'
-  },
-  {
-    name: "Vegetarian Shepherd's Pie",
-    cuisineType: ['Balanced', 'High-Fiber'],
-    ingredients: [
-      '2 tablespoons extra-virgin olive oil',
-      '1 large onion, finely diced',
-      '2 carrots, peeled and thinly sliced',
-      '2 celery stalks, thinly sliced',
-      '10 ounces cremini mushrooms, trimmed and sliced',
-      '1 tablespoon tomato paste',
-      "1 tablespoon vegetarian Worcestershire sauce, such as Annie's Naturals",
-      '1 dried bay leaf',
-      '1 cup French green lentils, picked over',
-      'Kosher salt and freshly ground pepper',
-      '1 cup frozen peas',
-      '2 pounds Yukon Gold potatoes, scrubbed and cut into 1 1/2-inch pieces',
-      '4 cloves garlic',
-      '4 tablespoons unsalted butter',
-      '1/2 cup whole milk, warmed'
-    ],
-    source: 'Martha Stewart',
-    totalTime: 120,
-    url: 'https://www.marthastewart.com/1535235/vegetarian-shepherds-pie',
-    image: "./recipe-images/vegetarian-shepherd's-pie.jpg"
-  },
-  {
-    name: 'Chicken Paprikash',
-    cuisineType: ['Low-Carb'],
-    ingredients: [
-      '640 grams chicken - drumsticks and thighs ( 3 whole chicken legs cut apart)',
-      '1/2 teaspoon salt',
-      '1/4 teaspoon black pepper',
-      '1 tablespoon butter – cultured unsalted (or olive oil)',
-      '240 grams onion sliced thin (1 large onion)',
-      '70 grams Anaheim pepper chopped (1 large pepper)',
-      '25 grams paprika (about 1/4 cup)',
-      '1 cup chicken stock',
-      '1/2 teaspoon salt',
-      '1/2 cup sour cream',
-      '1 tablespoon flour – all-purpose'
-    ],
-    source: 'No Recipes',
-    totalTime: 80,
-    url: 'http://norecipes.com/recipe/chicken-paprikash/',
-    image: './recipe-images/chicken-paprikash.jpg'
-  },
-  {
-    name: 'Baked Chicken',
-    cuisineType: ['american'],
-    ingredients: [
-      '6 bone-in chicken breast halves, or 6 chicken thighs and wings, skin-on',
-      '1/2 teaspoon coarse salt',
-      '1/2 teaspoon Mrs. Dash seasoning',
-      '1/4 teaspoon freshly ground black pepper'
-    ],
-    source: 'Martha Stewart',
-    totalTime: 90,
-    url: 'http://www.marthastewart.com/318981/baked-chicken',
-    image: './recipe-images/baked-chicken.jpg'
-  },
-  {
-    name: 'Deep Fried Fish Bones',
-    cuisineType: ['south east asian'],
-    ingredients: ['8 small whiting fish or smelt', '4 cups vegetable oil'],
-    source: 'Serious Eats',
-    totalTime: 31,
-    url: 'http://www.seriouseats.com/recipes/2011/03/deep-fried-fish-bones-recipe.html',
-    image: './recipe-images/deep-fried-fish-bones.jpg'
-  },
-  {
-    name: 'Burnt-Scallion Fish',
-    cuisineType: ['chinese'],
-    ingredients: [
-      '2 bunches scallions',
-      '8 tbsp. butter',
-      '2 8-oz. fish filets'
-    ],
-    source: 'Saveur',
-    totalTime: 70,
-    url: 'http://www.saveur.com/article/Recipes/Burnt-Scallion-Fish',
-    image: './recipe-images/fish-dish.jpg'
-  },
-  {
-    name: 'Curry-Crusted Fish',
-    cuisineType: ['south east asian'],
-    ingredients: [
-      '3 slices bread , about 85g/3oz in total',
-      '1 lime',
-      '1.0 tbsp Korma curry paste',
-      '4 thick white fish fillets'
-    ],
-    source: 'BBC Good Food',
-    totalTime: 80,
-    url: 'http://www.bbcgoodfood.com/recipes/4717/',
-    image: './recipe-images/fish-dish.jpg'
-  },
-  {
-    name: 'Meat Stock',
-    cuisineType: 'american',
-    ingredients: [
-      '2.5 pounds beef marrow bones',
-      '1 large onion, quartered',
-      '2 carrots, sliced',
-      '1 leek, cleaned and sliced',
-      '2 celery stalks, sliced',
-      '2.5 pounds organic beef stew meat, cubed',
-      '2 tablespoons tomato paste',
-      '5 cloves garlic',
-      '2 bay leaves',
-      '3 sprigs thyme',
-      '3 sprigs Italian parsley',
-      '1/2 teaspoon black peppercorns'
-    ],
-    source: 'Food52',
-    totalTime: 60,
-    url: 'https://food52.com/recipes/3712-meat-stock',
-    image: './recipe-images/meat.jpg'
-  },
-  {
-    name: 'Homemade Meat Broth',
-    cuisineType: 'american',
-    ingredients: [
-      '1 teaspoon salt',
-      '1 carrot, peeled',
-      '1 medium onion, peeled',
-      '2 or 3 celery stalks',
-      '¼ red or yellow bell pepper, stripped of all its seeds',
-      '1 small boiling potato, peeled',
-      '1 ripe, fresh tomato, or 1 canned Italian plum tomato, drained of juice',
-      '5 pounds assorted pieces of meat and bones (see meat suggestions above), of which no less than 1½ pounds is all meat'
-    ],
-    source: 'Cookstr',
-    totalTime: 60,
-    url: 'http://www.cookstr.com/recipes/il-brodo-homemade-meat-broth',
-    image: './recipe-images/meat.jpg'
-  },
-  {
-    name: 'Spice-Rubbed Grilled Flap Meat (Sirloin Tip) Recipe',
-    cuisineType: 'south-american',
-    ingredients: [
-      '1 tablespoon whole black peppercorns, toasted',
-      '1 teaspoon coriander seed, toasted',
-      '1 teaspoon fennel seed, toasted',
-      '1 teaspoon cumin pods, toasted',
-      '1 teaspoon red pepper flakes',
-      '1/2 teaspoon dried oregano',
-      '2 medium cloves garlic, minced (about 2 teaspoons)',
-      '2 tablespoons vegetable or canola oil',
-      '1 whole flap meat steak, 2 to 2 1/2 pounds',
-      'Kosher salt'
-    ],
-    source: 'Serious Eats',
-    totalTime: 240,
-    url: 'http://www.seriouseats.com/recipes/2012/05/spice-rubbed-grilled-flap-meat-sirloin-tip-recipe.html',
-    image: './recipe-images/grilled.jpg'
+let currentPage = 1;
+const booksPerPage = 4;
+const totalPages = Math.ceil(books.length / booksPerPage);
+
+//--displayBooks: Muestra los libros en la página actual--//
+function displayBooks(booksToShow) {
+  const bookList = document.getElementById('bookList');
+  bookList.innerHTML = '';
+
+  booksToShow.forEach(book => {
+    const bookElement = document.createElement('div');
+    bookElement.classList.add('book');
+
+    bookElement.innerHTML = `
+      <img src="${book.image}" alt="${book.title}">
+      <h3>${book.title}</h3>
+      <p>by ${book.author}</p>
+      <p>Year: ${book.year}</p>
+      <p>Rating: ${book.rating}</p>
+      <span>${book.genre}</span>
+      <p>${book.description}</p>
+    `;
+
+    bookList.appendChild(bookElement);
+  });
+}
+
+//--showPage: Controla la paginación, mostrando solo los libros correspondientes a la página actual.--//
+function showPage(page) {
+  const start = (page - 1) * booksPerPage;
+  const end = start + booksPerPage;
+  const booksToShow = books.slice(start, end);
+
+  displayBooks(booksToShow);
+
+  document.getElementById('pageInfo').textContent = `Page ${page} of ${totalPages}`;
+  document.getElementById('prevBtn').disabled = page === 1;
+  document.getElementById('nextBtn').disabled = page === totalPages;
+}
+
+
+//--prevPage y nextPage: Cambian de página cuando se presionan los botones "Previous" y "Next".--//
+function prevPage() {
+  if (currentPage > 1) {
+    currentPage--;
+    showPage(currentPage);
   }
-]
+}
+
+function nextPage() {
+  if (currentPage < totalPages) {
+    currentPage++;
+    showPage(currentPage);
+  }
+}
+
+//--sortBooks: Ordena los libros según el criterio seleccionado en el menú desplegable (newest, oldest, rating).--//
+function sortBooks(criteria, booksToSort) {
+  let sortedBooks = [...booksToSort]; // Crear una copia del arreglo para no modificar el original
+
+  switch (criteria) {
+    case 'newest':
+      sortedBooks.sort((a, b) => b.year - a.year);
+      break;
+    case 'oldest':
+      sortedBooks.sort((a, b) => a.year - b.year);
+      break;
+    case 'rating':
+      sortedBooks.sort((a, b) => b.rating - a.rating); // Ordenar por calificación de mayor a menor
+      break;
+    default:
+      break;
+  }
+
+  return sortedBooks;
+}
+
+
+//--filterBooks: Filtra los libros según el texto de búsqueda y luego los ordena según el criterio seleccionado.--//
+function filterBooks(query) {
+  const lowerCaseQuery = query.toLowerCase();
+
+  // Dentro de la función, la tarea es Filtrar los libros según la búsqueda
+  let filteredBooks = books.filter(book => {
+    return (
+      book.title.toLowerCase().includes(lowerCaseQuery) ||
+      book.author.toLowerCase().includes(lowerCaseQuery) ||
+      book.genre.toLowerCase().includes(lowerCaseQuery) ||
+      book.description.toLowerCase().includes(lowerCaseQuery)
+    );
+  });
+
+  // Dentro de la función, la tarea es Obtener el criterio seleccionado en el menú desplegable
+  const sortCriteria = document.getElementById('sortMenu').value;
+
+  // Dentro de la función, la tarea es Ordenar los libros filtrados según el criterio seleccionado
+  filteredBooks = sortBooks(sortCriteria, filteredBooks);
+
+  // Dentro de la función, la tarea es Mostrar los libros ordenados y filtrados
+  displayBooks(filteredBooks.slice(0, booksPerPage)); // Mostrar la primera página de resultados filtrados
+  document.getElementById('pageInfo').textContent = `Showing ${filteredBooks.length} result(s)`;
+
+  // Dentro de la función, la tarea es Actualizar botones de paginación
+  document.getElementById('prevBtn').disabled = true;
+  document.getElementById('nextBtn').disabled = filteredBooks.length <= booksPerPage;
+}
+
+//--event listeners: Se activan cuando el usuario escribe en la barra de búsqueda o cambia la opción en el menú desplegable.--//
+document.getElementById('searchBar').addEventListener('input', (e) => {
+  filterBooks(e.target.value);
+  currentPage = 1; // Reiniciar a la primera página al filtrar
+});
+
+document.getElementById('sortMenu').addEventListener('change', () => {
+  const query = document.getElementById('searchBar').value;
+  filterBooks(query);
+  currentPage = 1; // Reiniciar a la primera página al ordenar
+});
+
+// Inicializa la primera página
+showPage(currentPage);
